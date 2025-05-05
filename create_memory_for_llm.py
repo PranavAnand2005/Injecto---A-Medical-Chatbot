@@ -18,10 +18,10 @@ def load_pdf_files(data):
     return documents
 
 documents=load_pdf_files(data=DATA_PATH)
-#print("Length of PDF pages: ", len(documents))
 
 
-# Step 2: Create Chunks
+
+# Step 2: Create Chunks 
 def create_chunks(extracted_data):
     text_splitter=RecursiveCharacterTextSplitter(chunk_size=500,
                                                  chunk_overlap=50)
@@ -29,7 +29,7 @@ def create_chunks(extracted_data):
     return text_chunks
 
 text_chunks=create_chunks(extracted_data=documents)
-#print("Length of Text Chunks: ", len(text_chunks))
+
 
 # Step 3: Create Vector Embeddings 
 
