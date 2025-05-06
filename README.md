@@ -79,7 +79,8 @@ Create an AI chatbot that:
 
 ## 📸 Output Snapshot
 
-*(Add your app screenshot here once available)*
+*(![Screenshot 2025-05-03 195121](https://github.com/user-attachments/assets/a7dd1047-3777-447e-b14e-9c2f52582b6c)
+)*
 
 ---
 
